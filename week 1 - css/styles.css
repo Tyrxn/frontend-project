@@ -15,16 +15,23 @@ div{
 
 .red{
     background-color: red;
-    position:relative;
-    top: 10px;
-    bottom: 10px;
+    position:sticky;
+    top: 500px;
+    bottom: 0;
 }
 
 .blue{
     background-color:blue;
-    position:absolute;
+    position:relative;
     width: 100%;
-    top: 0;
-    left: 0;
     box-sizing: border-box;
+}
+
+.child{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }

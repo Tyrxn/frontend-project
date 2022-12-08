@@ -1,0 +1,31 @@
+div{
+    background-color: red;
+    color:white;
+    font-size: 24px;
+}
+
+@media (max-width: 576px){
+    div{
+        font-size:16px;
+    }
+}
+
+@media(max-width: 992px){
+    div{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 768px){
+    div{
+        font-size: 18px;
+    }
+}
+
+/* To target certain platforms, @media the max width
+
+Mobile phones = 576px
+Tablets = 768px
+Desktops = 992px
+Large desktops = 1200px +
+*/
