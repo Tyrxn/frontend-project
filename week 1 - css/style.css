@@ -1,0 +1,47 @@
+h3{
+    color:rgba(70, 42, 97, 0.6);
+    /* rgba = alpha for opacity */
+    background-color: #ff0000;
+    /* can set colour using hex */
+}
+
+div{
+    width: 100%;
+    max-width: 200px;
+    /* This is how to make responsive widths */
+    /* Do not hard code height */
+    height: 100vh;
+    /* This says 100% of the height (viewport height) */
+    background-color: aqua;
+    border: 5px solid black;
+    font-size: 12px;
+    font-weight:700;
+    font-family: roboto, sans-serif;
+    /* if browser does not support roboto, fallback to sans-serif */
+}
+
+.red{
+    color:red;
+}
+
+.blue{
+    color:blue;
+}
+
+/* Blue has a higher order of prioritisation since it comes after */
+/* Thus, we use classes in CSS */
+/* use . before class name */
+
+/* Classes are more specific than tags that come after each other */
+
+/* Can only have 1 ID per page */
+
+#title
+{
+    font-weight: bold;
+    color: purple;
+}
+
+/* p.blue will have higher priority than .blue */
+
+/* !important will override all others but not good to use */
