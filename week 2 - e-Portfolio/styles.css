@@ -43,6 +43,18 @@ li{
 .text--purple{
     color: #6030b1;
 }
+
+section:nth-child(even){
+    background-color: #f8f8f8;
+}
+
+.container{
+    padding: 50px 0;
+}
+
+.section_title{
+    margin-bottom: 20px;
+}
 /* NAVIGATION BAR */
 
 nav{
@@ -147,4 +159,26 @@ nav{
 .about-me__img{
     width: 100%;
     padding-top: 48px;
+}
+
+/* Tech Stack */
+.language{
+    width: 100%;
+}
+
+.language__img{
+    width: 100%;
+    max-width: 100px;
+}
+
+.language__img--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.language__list{
+    display: flex;
+
+    width: 100%;
 }
